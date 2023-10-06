@@ -1,0 +1,39 @@
+ body
+ {
+ 	background-image:  url("library_pataskala_026.jpg");
+   font-family: sans-serif;
+   padding: 0px;
+   margin: 0px;
+ }
+ .box
+ {
+ 	position: absolute;
+ 	left: 50%;
+ 	top: 50%;
+ 	background: rgb(0,0,0,.8);
+ 	transform: translate(-50%,-50%);
+ 	padding: 20px;
+ 	margin-top: 0px;
+    color: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+ }
+ .form input,button
+ {
+     outline: none;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+ 	   font-size: 20px;
+ 	    width: 400px;
+ 	   background: transparent;
+ 	   color: white;
+
+ }
+ .box.form.inputbox input:focus ~ label,
+ .box .form.inputbox input:valid ~ label
+ {
+    top: -18;
+    left: 0;
+    color: yellow;
+ }
